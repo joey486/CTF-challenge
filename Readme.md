@@ -3,3 +3,4 @@ A serious security breach was discovered at an international cyber company that 
 
 # Instructions
 You will start with a Python server running locally, launch it, and find the QR.
+Power up the server.py in stage 1.1 and get right into it!
