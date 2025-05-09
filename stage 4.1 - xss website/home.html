@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberCorp - Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Welcome to CyberCorp's Internal System</h1>
+    <div class="content-box">
+        <p>You've successfully bypassed the login system.</p>
+        <p>The flag is: <strong>FLAG{xss_bypass_success}</strong></p>
+        <p>Keep this information confidential. Unauthorized access is strictly prohibited.</p>
+
+        <h2>Understanding Cross-Site Scripting (XSS)</h2>
+        <p>XSS is a type of security vulnerability typically found in web applications. It allows attackers to inject malicious scripts into web pages viewed by other users. These scripts can execute in the browser of the victim, leading to various harmful outcomes, such as:</p>
+        <ul>
+            <li>Stealing sensitive information like session tokens, cookies, or login credentials.</li>
+            <li>Performing actions on behalf of the user without their consent (e.g., unauthorized transactions).</li>
+            <li>Spreading malware by redirecting users to malicious sites.</li>
+        </ul>
+        <p>In this challenge, you exploited an XSS vulnerability by injecting a script into the login form. The script executed in the context of this page, allowing you to bypass the login and gain unauthorized access.</p>
+        <p><strong>Mitigation:</strong> To prevent XSS vulnerabilities, always sanitize and validate user inputs before rendering them on a web page. Use proper escaping for HTML, JavaScript, and other contexts where user data might be displayed.</p>
+        
+        <p><a href="index.html">Logout</a></p>
+    </div>
+</body>
+</html>

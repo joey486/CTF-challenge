@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon"> <!-- Favicon -->
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Website</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="hint.html">Hint</a></li>
+                <li><a href="poem.html">Poem</a></li>
+                <li><a id="downloadLink" href="encrypted_data.txt" download style="display: none;">Download Data</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Find the Password</h2>
+            <p>Guess the correct password to download the file:</p>
+            <input type="text" id="passwordInput" placeholder="Enter the password">
+            <button onclick="checkPassword()">Submit</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 My Website</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

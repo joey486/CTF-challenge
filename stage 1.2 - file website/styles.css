@@ -1,0 +1,121 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+    background-color: #1f1f1f;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #00e676;
+}
+
+/* Navigation Styles */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #00e676;
+    color: #121212;
+}
+
+/* Main Content Styles */
+main {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #1f1f1f;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+main h2 {
+    color: #00e676;
+    font-size: 2em;
+}
+
+main p {
+    margin-bottom: 20px;
+    font-size: 1.1em;
+}
+
+/* Input and Button Styles */
+input[type="text"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #00e676;
+    border-radius: 5px;
+    background-color: #121212;
+    color: #ffffff;
+    font-size: 1.1em;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #00e676;
+    border: none;
+    border-radius: 5px;
+    color: #121212;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #00c853;
+    transform: translateY(-3px);
+}
+
+/* Footer Styles */
+footer {
+    background-color: #1f1f1f;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.5);
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Additional Styling */
+a {
+    color: #00e676;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
