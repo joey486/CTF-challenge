@@ -27,7 +27,7 @@ def home():
 @app.route('/send-image')
 def send_image():
     # Replace 'image.png' with the path to your image
-    return send_file('frame 2.png', mimetype='image/png')
+    return send_file('frame.png', mimetype='image/png')
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
